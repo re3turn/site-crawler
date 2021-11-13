@@ -1,0 +1,14 @@
+version: "3.7"
+services:
+  crawler:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    image: site_crawler
+    container_name: site_crawler
+    environment:
+      TZ: "Asia/Tokyo"
+      TARGET_URLS:
+      SCRAPING_WORDS:
+      SLACK_WEBHOOK_URL:
+    restart: always
