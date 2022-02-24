@@ -12,7 +12,7 @@ services:
       SCRAPING_WORDS:
       SLACK_WEBHOOK_URL:
       LOGGING_LEVEL:
-      OUTPUT_LOG_FILE_ENABLED: false
+      OUTPUT_LOG_FILE_ENABLED: "false"
     logging:
       options:
         max-file: '3'
