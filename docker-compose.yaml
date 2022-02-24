@@ -13,4 +13,8 @@ services:
       SLACK_WEBHOOK_URL:
       LOGGING_LEVEL:
       OUTPUT_LOG_FILE_ENABLED: false
+    logging:
+      options:
+        max-file: '3'
+        max-size: 10m
     restart: always
