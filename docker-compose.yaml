@@ -11,4 +11,6 @@ services:
       TARGET_URLS:
       SCRAPING_WORDS:
       SLACK_WEBHOOK_URL:
+      LOGGING_LEVEL:
+      OUTPUT_LOG_FILE_ENABLED: false
     restart: always
